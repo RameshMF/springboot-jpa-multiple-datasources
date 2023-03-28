@@ -2,8 +2,8 @@ package net.guides.springboot.springbootmultipledatasources.config;
 
 import java.util.Properties;
 
-import javax.persistence.EntityManagerFactory;
-import javax.sql.DataSource;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
